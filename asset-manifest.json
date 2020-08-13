@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/currency-convert-react/static/css/main.7644871a.chunk.css",
-    "main.js": "/currency-convert-react/static/js/main.433348a3.chunk.js",
-    "main.js.map": "/currency-convert-react/static/js/main.433348a3.chunk.js.map",
+    "main.js": "/currency-convert-react/static/js/main.c580232a.chunk.js",
+    "main.js.map": "/currency-convert-react/static/js/main.c580232a.chunk.js.map",
     "runtime-main.js": "/currency-convert-react/static/js/runtime-main.9529d0fd.js",
     "runtime-main.js.map": "/currency-convert-react/static/js/runtime-main.9529d0fd.js.map",
     "static/js/2.cf2817d3.chunk.js": "/currency-convert-react/static/js/2.cf2817d3.chunk.js",
     "static/js/2.cf2817d3.chunk.js.map": "/currency-convert-react/static/js/2.cf2817d3.chunk.js.map",
     "index.html": "/currency-convert-react/index.html",
-    "precache-manifest.6ac7b2bc13153b7a16d9a92a2091ac52.js": "/currency-convert-react/precache-manifest.6ac7b2bc13153b7a16d9a92a2091ac52.js",
+    "precache-manifest.ea958432250cf5302f62984b50fd85fa.js": "/currency-convert-react/precache-manifest.ea958432250cf5302f62984b50fd85fa.js",
     "service-worker.js": "/currency-convert-react/service-worker.js",
     "static/css/main.7644871a.chunk.css.map": "/currency-convert-react/static/css/main.7644871a.chunk.css.map",
     "static/js/2.cf2817d3.chunk.js.LICENSE.txt": "/currency-convert-react/static/js/2.cf2817d3.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.9529d0fd.js",
     "static/js/2.cf2817d3.chunk.js",
     "static/css/main.7644871a.chunk.css",
-    "static/js/main.433348a3.chunk.js"
+    "static/js/main.c580232a.chunk.js"
   ]
 }
