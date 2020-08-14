@@ -14,16 +14,16 @@ This is a simple Currency converter using API from [NBP.pl](https://api.nbp.pl/)
 ## For Users:
 
 Choose witch currency you have and how much do you wanna exchange:
-![First currency and amount](img/First.PNG)
+![First currency and amount](src/img/First.PNG)
 
 Then choose witch currency are you looking for and press button :smiley:
-![second currency and convert](img/First.PNG)
+![second currency and convert](src/img/First.PNG)
 
 
 
 
 ## This is how Currency Converter looks like
-![currency converter](img/Third.PNG)
+![currency converter](/src/img/Third.PNG)
 
 
 
