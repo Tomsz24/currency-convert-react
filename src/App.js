@@ -19,7 +19,7 @@ import sek from './img/sek.png';
 import { GlobalStyle } from './styled/GlobalStyles';
 
 
-const api = 'http://api.nbp.pl/api/exchangerates/tables/c/?format=json';
+const api = 'https://api.nbp.pl/api/exchangerates/tables/c/?format=json';
 
 function App() {
   const [time, setTime] = useState(new Date());
