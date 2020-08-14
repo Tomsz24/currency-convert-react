@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './css/App.css';
 import Clock from './components/Clock';
 import Form from './components/Form';
 import Table from './components/Table';
@@ -17,12 +16,14 @@ import czk from './img/czk.png';
 import dkk from './img/dkk.png';
 import nok from './img/nok.png';
 import sek from './img/sek.png';
+import { GlobalStyle } from './styled/GlobalStyles';
+
+
+const api = 'http://api.nbp.pl/api/exchangerates/tables/c/?format=json';
 
 function App() {
   const [time, setTime] = useState(new Date());
   const [currencys, setCurrencys] = useState([]);
-  const api = 'http://api.nbp.pl/api/exchangerates/tables/c/?format=json';
-
 
   useEffect(() => {
     const timerId = setInterval(() => tick(), 1000);
@@ -115,12 +116,15 @@ function App() {
 
 
   return (
-    <div className="App">
-      <Clock time={time} />
-      <Form currencys={currencys} />
-      <Table nationalAndCurrencys={nationalAndCurrencys} />
-      <Footer />
-    </div>
+    <>
+      <GlobalStyle />
+      <div className="App">
+        <Clock time={time} />
+        <Form currencys={currencys} />
+        <Table nationalAndCurrencys={nationalAndCurrencys} />
+        <Footer />
+      </div>
+    </>
   );
 }
 
