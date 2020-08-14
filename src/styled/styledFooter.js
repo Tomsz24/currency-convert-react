@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 export const Copyrights = styled.footer`
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   background-color: #008bd1;
   color: #fff;
   width: 100%;
-  margin-top: 25px;
+  margin-top: 225px;
 `;
 
 export const Span = styled.span`
