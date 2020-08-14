@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const TableforTable = styled.table`
+export const Wrapper = styled.table`
   max-width: 500px;
   margin: 30px auto;
   font-size: 20px;

@@ -11,6 +11,7 @@ export const Fieldset = styled.fieldset`
   box-shadow: 3px 3px 3px black;
   border-radius: 5px;
   background-color: #fff;
+  text-align: center;
 `;
 
 export const Legend = styled.legend`
