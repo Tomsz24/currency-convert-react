@@ -17,7 +17,7 @@ Choose witch currency you have and how much do you wanna exchange:
 ![First currency and amount](src/img/First.PNG)
 
 Then choose witch currency are you looking for and press button :smiley:
-![second currency and convert](src/img/First.PNG)
+![second currency and convert](src/img/Second.PNG)
 
 
 
