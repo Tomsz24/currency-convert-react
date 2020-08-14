@@ -1,11 +1,11 @@
 import React from 'react';
-import { TableforTable, TableHeader, TableCell, Flags } from '../styled/styledTable';
+import { Wrapper, TableHeader, TableCell, Flags } from '../styled/styledTable';
 
 
 const Table = ({ nationalAndCurrencys }) => {
 
   return (
-    <TableforTable>
+    <Wrapper>
       <thead>
         <tr>
           <TableHeader>Waluta</TableHeader>
@@ -16,14 +16,14 @@ const Table = ({ nationalAndCurrencys }) => {
 
       <tbody>
         {nationalAndCurrencys.map(item => (
-          <tr key={item.code}>
-            <TableCell key={item.currency}><Flags src={item.flag} alt="national flag" /> {item.code}</TableCell>
-            <TableCell key={item.bid}>{item.bid} zł</TableCell>
-            <TableCell key={item.ask}>{item.ask} zł</TableCell>
+          <tr key={item.flag}>
+            <TableCell><Flags src={item.flag} alt="national flag" /> {item.code}</TableCell>
+            <TableCell>{item.bid} zł</TableCell>
+            <TableCell>{item.ask} zł</TableCell>
           </tr>
         ))}
       </tbody>
-    </TableforTable>
+    </Wrapper>
   );
 }
 
